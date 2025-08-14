@@ -37,3 +37,7 @@ Each of the file under `tests` contain a few exercises that we will work through
 - Previously: tour of python ecosystem tools => you have operational test development environment
 - This: parsing logs with python and pytest, difference of python script and a pytest, concept of fixture, concept of debugging; git branches. 
 - Intentionally later: scopes of fixtures, parametrized tests, libraries beyond the minimal, test targets other than files with text
+
+## Attribution
+
+This exercise originates from a time when Maaret Pyhäjärvi and Ru Cindrea taught python to fellow testers together. It has been set up as a layered learning exercise, showing you can do some with very little learning, and then continue peeling into more layers. 
