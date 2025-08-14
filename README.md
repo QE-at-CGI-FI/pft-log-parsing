@@ -35,5 +35,5 @@ Each of the file under `tests` contain a few exercises that we will work through
 ## Scope of Learning
 
 - Previously: tour of python ecosystem tools => you have operational test development environment
-- This: parsing logs with python and pytest, difference of python script and a pytest, concept of fixture, concept of debugging. 
+- This: parsing logs with python and pytest, difference of python script and a pytest, concept of fixture, concept of debugging; git branches. 
 - Intentionally later: scopes of fixtures, parametrized tests, libraries beyond the minimal, test targets other than files with text
