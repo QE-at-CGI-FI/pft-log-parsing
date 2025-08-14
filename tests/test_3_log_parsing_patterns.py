@@ -1,5 +1,4 @@
 import pytest
-import re
 from datetime import datetime
 
 @pytest.fixture()
