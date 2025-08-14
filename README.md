@@ -1,6 +1,8 @@
-# Python For Testing - Log Parser 
+# Python For Testing - Log Parsing
 
 This project introduces you to `pytest` - the most popular testing framework for Python - through a few exercises that parse a typical log file to check for errors and look for expected patterns. 
+
+Parsing = “to analyze a sentence into its parts of speech and grammatical structure.”
 
 ## Installing Dependencies
 
@@ -33,5 +35,5 @@ Each of the file under `tests` contain a few exercises that we will work through
 ## Scope of Learning
 
 - Previously: tour of python ecosystem tools => you have operational test development environment
-- This: parsing logs with python and pytest, difference of python script and a pytest, concept of fixture. 
+- This: parsing logs with python and pytest, difference of python script and a pytest, concept of fixture, concept of debugging. 
 - Intentionally later: scopes of fixtures, parametrized tests, libraries beyond the minimal, test targets other than files with text
