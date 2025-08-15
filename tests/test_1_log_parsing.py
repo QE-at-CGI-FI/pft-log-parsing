@@ -1,6 +1,12 @@
 
 def test_log_has_no_errors():
-    pass
-    
+    with open("data/app.log") as f:
+        log_contents = f.read()
+        assert "ERROR" not in log_contents
+
 def test_log_has_no_unexpected_warnings():
-    pass
+    with open("data/app.log") as f:
+        log = f.read()
+        for line in log.splitlines():
+            if "WARNING" in line:
+                assert "low" in line
