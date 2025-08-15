@@ -35,7 +35,18 @@ Each of the file under `tests` contain a few exercises that we will work through
 ## Scope of Learning
 
 - Previously: tour of python ecosystem tools => you have operational test development environment
-- This: parsing logs with python and pytest, difference of python script and a pytest, concept of fixture, concept of debugging; git branches. 
+- This material illustrates discovery of:
+    * configuring pytest test location to folder test/
+    * pytest.ini as source of command line arguments
+    * parsing logs with python and pytest, and naming the patterns you search
+    * html reports from pytest
+    * debugging a pytest, why and how
+    * difference of non-test/test and script/function
+    * for loop, implicitly
+    * counting items in a list
+    * concept of fixture
+    * concept of debugging
+    * working in a git branch
 - Intentionally later: scopes of fixtures, parametrized tests, libraries beyond the minimal, test targets other than files with text
 
 ## Attribution
